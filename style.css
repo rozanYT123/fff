@@ -1,80 +1,151 @@
-/* Загальні налаштування */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #fff8f0;
-    color: #333;
-    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: rgb(241, 238, 238);
+    margin: 0px;
+    
 }
 
-/* Хедер */
-.header {
-    background: #e07a5f;
-    color: #fff;
+.minecraft {
     text-align: center;
-    padding: 30px 0;
-}
-.header h1 {
-    font-size: 2.5rem;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(184, 69, 69);
+    width: 70%;
+    color: rgb(255, 255, 255);
+    background: #ff4f4f;
+    background: linear-gradient(90deg, rgba(255, 79, 79, 1) 0%, rgba(255, 97, 97, 1) 12%, rgba(255, 71, 71, 1) 49%, rgba(255, 71, 71, 1) 72%);
+    margin-bottom: 15%;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-/* Меню */
-.nav {
+header {
+    background-image: url('https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/748fb024-95b8-4a46-8b36-f022994c3c90/Christmas_Thumbnail_0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    background: #3d405b;
-    padding: 10px 0;
-}
-.nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-.nav a:hover {
-    color: #e07a5f;
+    align-items: center;
+
 }
 
-/* Секції */
-.section {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 15px;
-}
-.section h2 {
-    color: #e07a5f;
-    margin-bottom: 15px;
+.minecraft:hover {
+    transform: scale(1.2);
+    box-shadow: 13px 13px 5px black;
 }
 
-/* Галерея */
-.gallery .images {
+.containers {
     display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.gallery img {
-    border-radius: 8px;
+    background-color: rgb(241, 238, 238);
     width: 100%;
-    max-width: 300px;
+    height: 300px;
+    font-size: 20px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    max-width: 1200px;
+    
 }
 
-/* Футер */
-.footer {
-    background: #3d405b;
-    color: #fff;
+
+.text-about {
+    color: rgb(39, 39, 39);
+    padding: 40px;
+}
+
+.text-about:hover {
+    background-color: #eaeaea;
+}
+
+.mechaniki {
     text-align: center;
-    padding: 20px;
+    border: 3px solid rgb(220, 220, 220);
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    background: #ff4f4f;
+    background: linear-gradient(90deg, rgba(255, 79, 79, 1) 0%, rgba(255, 97, 97, 1) 12%, rgba(255, 71, 71, 1) 49%, rgba(255, 71, 71, 1) 72%);
+    width: 80%;
+    margin: 10px auto;
+    
 }
-.footer a {
-    color: #e07a5f;
-    text-decoration: none;
+
+.minecraft_logo {
+    width: 40%;
+    height: 65%;
+    margin: 10px;
 }
-.footer a:hover {
-    text-decoration: underline;
+
+.minecraft_logo2 {
+    width: 10%;
+    height: 15%;
+    margin: 5px;
 }
+
+.footer {
+  background: #0f0f0f;
+  color: #ffffff;
+  padding: 40px 0 0;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer h2, .footer h3 {
+  color: #ffffff;
+}
+
+.footer p {
+  color: #cccccc;
+  margin-top: 10px;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #cccccc;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff3936;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  background: #090909;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #888;
+}
+
+.img1:hover {
+    transform: scale(0.8);
+    transition: 2s;
+}
+
+
+
